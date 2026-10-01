@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scaling-law-explorer"
+version = "0.1.0"
+description = "Deterministic CPU-only scaling-law experiments on explicit observations"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sle2 = "scaling_law_explorer.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
