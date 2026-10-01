@@ -1,0 +1,5 @@
+Test count: 29 passed (python -m pytest -q).
+Local implementation commit hash: e0e8625e6fc998c8288f55b1b7931594cec1c768
+Full installed CLI demo: 1.198703 seconds, under 5 seconds.
+
+Built a dependency-free CPU-only Python sle2 CLI with labelled 200-record synthetic fixtures, JSONL/CSV input validation, pure log-log OLS summaries, two domain commands (fit and validate), deterministic atomic results and Markdown/JSON reports with record-level provenance. Independent hand-computed expectations, adversarial cases, mutation checks, empty inputs, Unicode, deterministic output and write failures are tested. README, captured demo evidence, lessons and a pending two-week verdict record document the honesty boundary and future real-use evaluation. No publishing or external network calls were performed. This hash identifies the implementation and evidence commit; the subsequent documentation commit records this completion file.
